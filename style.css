@@ -1,0 +1,34 @@
+h1 {
+  padding:20px;
+  margin:0;
+}
+ol {
+  border-right:2px solid black;
+  display:inline-block;
+  padding:20px;
+  margin:0;
+}
+body {
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#style1 ol {
+  padding-left: 33px;
+}
+#style1 {
+  grid-template-columns: 150px 1fr;
+  display: grid;
+}
+#style1 {
+  border-bottom:2px solid black;
+  border-top:2px solid black;
+  border-right:2px solid black;
+  display: inline-block;
+}
+#style2 {
+  padding-left:20px;
+  padding-bottom:10px;
+}
